@@ -1671,14 +1671,14 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "ConsoleApp/1.0.0": {
+      "1_ConsoleApp/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/ConsoleApp.dll": {}
+          "bin/placeholder/1_ConsoleApp.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ConsoleApp.dll": {}
+          "bin/placeholder/1_ConsoleApp.dll": {}
         }
       }
     }
@@ -5973,15 +5973,15 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "ConsoleApp/1.0.0": {
+    "1_ConsoleApp/1.0.0": {
       "type": "project",
-      "path": "../../ConsoleApp/ConsoleApp.csproj",
-      "msbuildProject": "../../ConsoleApp/ConsoleApp.csproj"
+      "path": "../../ConsoleApp/1_ConsoleApp.csproj",
+      "msbuildProject": "../../ConsoleApp/1_ConsoleApp.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "ConsoleApp >= 1.0.0",
+      "1_ConsoleApp >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
       "coverlet.collector >= 3.1.0",
       "xunit >= 2.4.1",
@@ -5995,9 +5995,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Parmonic\\GitRepo\\ConsoleApp\\ConsoleAppUnitTest\\ConsoleAppUnitTest\\ConsoleAppUnitTest.csproj",
-      "projectName": "ConsoleAppUnitTest",
-      "projectPath": "D:\\Parmonic\\GitRepo\\ConsoleApp\\ConsoleAppUnitTest\\ConsoleAppUnitTest\\ConsoleAppUnitTest.csproj",
+      "projectUniqueName": "D:\\Parmonic\\GitRepo\\ConsoleApp\\ConsoleAppUnitTest\\ConsoleAppUnitTest\\11_ConsoleAppUnitTest.csproj",
+      "projectName": "11_ConsoleAppUnitTest",
+      "projectPath": "D:\\Parmonic\\GitRepo\\ConsoleApp\\ConsoleAppUnitTest\\ConsoleAppUnitTest\\11_ConsoleAppUnitTest.csproj",
       "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
       "outputPath": "D:\\Parmonic\\GitRepo\\ConsoleApp\\ConsoleAppUnitTest\\ConsoleAppUnitTest\\obj\\",
       "projectStyle": "PackageReference",
@@ -6020,8 +6020,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Parmonic\\GitRepo\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj": {
-              "projectPath": "D:\\Parmonic\\GitRepo\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj"
+            "D:\\Parmonic\\GitRepo\\ConsoleApp\\ConsoleApp\\1_ConsoleApp.csproj": {
+              "projectPath": "D:\\Parmonic\\GitRepo\\ConsoleApp\\ConsoleApp\\1_ConsoleApp.csproj"
             }
           }
         }

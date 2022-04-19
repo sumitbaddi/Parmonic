@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Parmonic\\GitRepo\\ConsoleApp\\ConsoleAppUnitTest\\ConsoleAppUnitTest\\ConsoleAppUnitTest.csproj": {}
+    "D:\\Parmonic\\GitRepo\\ConsoleApp\\ConsoleAppUnitTest\\ConsoleAppUnitTest\\11_ConsoleAppUnitTest.csproj": {}
   },
   "projects": {
-    "D:\\Parmonic\\GitRepo\\ConsoleApp\\ConsoleAppUnitTest\\ConsoleAppUnitTest\\ConsoleAppUnitTest.csproj": {
+    "D:\\Parmonic\\GitRepo\\ConsoleApp\\ConsoleAppUnitTest\\ConsoleAppUnitTest\\11_ConsoleAppUnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Parmonic\\GitRepo\\ConsoleApp\\ConsoleAppUnitTest\\ConsoleAppUnitTest\\ConsoleAppUnitTest.csproj",
-        "projectName": "ConsoleAppUnitTest",
-        "projectPath": "D:\\Parmonic\\GitRepo\\ConsoleApp\\ConsoleAppUnitTest\\ConsoleAppUnitTest\\ConsoleAppUnitTest.csproj",
+        "projectUniqueName": "D:\\Parmonic\\GitRepo\\ConsoleApp\\ConsoleAppUnitTest\\ConsoleAppUnitTest\\11_ConsoleAppUnitTest.csproj",
+        "projectName": "11_ConsoleAppUnitTest",
+        "projectPath": "D:\\Parmonic\\GitRepo\\ConsoleApp\\ConsoleAppUnitTest\\ConsoleAppUnitTest\\11_ConsoleAppUnitTest.csproj",
         "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
         "outputPath": "D:\\Parmonic\\GitRepo\\ConsoleApp\\ConsoleAppUnitTest\\ConsoleAppUnitTest\\obj\\",
         "projectStyle": "PackageReference",

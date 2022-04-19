@@ -11,20 +11,18 @@ namespace FizzBuzz
             var input = Console.ReadLine();
             bool isInt = int.TryParse(input, out i);
 
-            if (string.IsNullOrEmpty(input) || isInt ==false)
+            if (string.IsNullOrEmpty(input) || isInt ==false || i<=0)
             {
-                Console.WriteLine("Provide valid integer input");
+                Console.WriteLine("Provide valid integer input value greater than or equal to 1");
                 return;
             }
-
-            
+                        
             if (!string.IsNullOrEmpty(input) && isInt == true && i>0)
             {
                 var res = DisplayFizzBuzz(i);
                 Console.WriteLine(res);
                 Console.ReadLine();
-            }
-            
+            }            
         }
 
         public static string DisplayFizzBuzz(int i)
