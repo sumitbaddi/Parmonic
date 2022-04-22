@@ -1,0 +1,15 @@
+D:\Parmonic\GitRepo\ConsoleApp\ConsoleApp\bin\Debug\net6.0\ConsoleAppFizzBuzz.exe
+D:\Parmonic\GitRepo\ConsoleApp\ConsoleApp\bin\Debug\net6.0\ConsoleAppFizzBuzz.deps.json
+D:\Parmonic\GitRepo\ConsoleApp\ConsoleApp\bin\Debug\net6.0\ConsoleAppFizzBuzz.runtimeconfig.json
+D:\Parmonic\GitRepo\ConsoleApp\ConsoleApp\bin\Debug\net6.0\ConsoleAppFizzBuzz.dll
+D:\Parmonic\GitRepo\ConsoleApp\ConsoleApp\bin\Debug\net6.0\ConsoleAppFizzBuzz.pdb
+D:\Parmonic\GitRepo\ConsoleApp\ConsoleApp\obj\Debug\net6.0\ConsoleAppFizzBuzz.csproj.AssemblyReference.cache
+D:\Parmonic\GitRepo\ConsoleApp\ConsoleApp\obj\Debug\net6.0\ConsoleAppFizzBuzz.GeneratedMSBuildEditorConfig.editorconfig
+D:\Parmonic\GitRepo\ConsoleApp\ConsoleApp\obj\Debug\net6.0\ConsoleAppFizzBuzz.AssemblyInfoInputs.cache
+D:\Parmonic\GitRepo\ConsoleApp\ConsoleApp\obj\Debug\net6.0\ConsoleAppFizzBuzz.AssemblyInfo.cs
+D:\Parmonic\GitRepo\ConsoleApp\ConsoleApp\obj\Debug\net6.0\ConsoleAppFizzBuzz.csproj.CoreCompileInputs.cache
+D:\Parmonic\GitRepo\ConsoleApp\ConsoleApp\obj\Debug\net6.0\ConsoleAppFizzBuzz.dll
+D:\Parmonic\GitRepo\ConsoleApp\ConsoleApp\obj\Debug\net6.0\refint\ConsoleAppFizzBuzz.dll
+D:\Parmonic\GitRepo\ConsoleApp\ConsoleApp\obj\Debug\net6.0\ConsoleAppFizzBuzz.pdb
+D:\Parmonic\GitRepo\ConsoleApp\ConsoleApp\obj\Debug\net6.0\ConsoleAppFizzBuzz.genruntimeconfig.cache
+D:\Parmonic\GitRepo\ConsoleApp\ConsoleApp\obj\Debug\net6.0\ref\ConsoleAppFizzBuzz.dll

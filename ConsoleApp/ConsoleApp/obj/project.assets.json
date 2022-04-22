@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Parmonic\\GitRepo\\ConsoleApp\\ConsoleApp\\1_ConsoleApp.csproj",
-      "projectName": "1_ConsoleApp",
-      "projectPath": "D:\\Parmonic\\GitRepo\\ConsoleApp\\ConsoleApp\\1_ConsoleApp.csproj",
+      "projectUniqueName": "D:\\Parmonic\\GitRepo\\ConsoleApp\\ConsoleApp\\ConsoleAppFizzBuzz.csproj",
+      "projectName": "ConsoleAppFizzBuzz",
+      "projectPath": "D:\\Parmonic\\GitRepo\\ConsoleApp\\ConsoleApp\\ConsoleAppFizzBuzz.csproj",
       "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
       "outputPath": "D:\\Parmonic\\GitRepo\\ConsoleApp\\ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",

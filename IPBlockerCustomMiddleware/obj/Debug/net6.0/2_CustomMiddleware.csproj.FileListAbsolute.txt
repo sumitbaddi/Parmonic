@@ -1,0 +1,6 @@
+D:\Parmonic\GitRepo\CustomMiddleware\CustomMiddleware\obj\Debug\net6.0\2_CustomMiddleware.csproj.AssemblyReference.cache
+D:\Parmonic\GitRepo\CustomMiddleware\CustomMiddleware\obj\Debug\net6.0\2_CustomMiddleware.GeneratedMSBuildEditorConfig.editorconfig
+D:\Parmonic\GitRepo\CustomMiddleware\CustomMiddleware\obj\Debug\net6.0\2_CustomMiddleware.AssemblyInfoInputs.cache
+D:\Parmonic\GitRepo\CustomMiddleware\CustomMiddleware\obj\Debug\net6.0\2_CustomMiddleware.AssemblyInfo.cs
+D:\Parmonic\GitRepo\CustomMiddleware\CustomMiddleware\obj\Debug\net6.0\2_CustomMiddleware.csproj.CoreCompileInputs.cache
+D:\Parmonic\GitRepo\CustomMiddleware\CustomMiddleware\obj\Debug\net6.0\2_CustomMiddleware.MvcApplicationPartsAssemblyInfo.cache

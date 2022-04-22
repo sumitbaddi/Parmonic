@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\ConsoleApp\1_ConsoleApp.csproj" />
+    <ProjectReference Include="..\..\ConsoleApp\ConsoleAppFizzBuzz.csproj" />
   </ItemGroup>
 
 </Project>

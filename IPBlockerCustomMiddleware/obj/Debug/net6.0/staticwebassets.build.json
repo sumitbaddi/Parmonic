@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "wdjtndF+p+8HMP4G7sT01JVpj7yCzZg/N8HiK+LRRzU=",
+  "Source": "IPBlockerCustomMiddleware",
+  "BasePath": "_content/IPBlockerCustomMiddleware",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
