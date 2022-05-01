@@ -25,17 +25,23 @@ namespace CustomMiddleware
             }
             else
             {
-                var ipRec = JsonConvert.DeserializeObject<IPDetailModel>(context.Session.GetString(remoteIp));
-                if (DateTimeOffset.UtcNow.Subtract(ipRec.DateTimeOffset).TotalMinutes < 1 && ipRec.Count > 5)
+                if(remoteIp!=null)
                 {
-                    await context.Response.WriteAsJsonAsync("Permission Denied due to request count exceeded the max limit of 5 request/minute");
-                }
-                else
-                {
-                    ipRec.Count = ipRec.Count + 1;
-                    context.Session.Remove(remoteIp);
-                    context.Session.SetString(remoteIp, JsonConvert.SerializeObject(ipRec));
-                }
+                    var ipRec = JsonConvert.DeserializeObject<IPDetailModel>(context.Session.GetString(remoteIp));
+                    if (ipRec != null)
+                    {
+                        if (DateTimeOffset.UtcNow.Subtract(ipRec.DateTimeOffset).TotalMinutes < 1 && ipRec.Count > 5)
+                        {
+                            await context.Response.WriteAsJsonAsync("Permission Denied due to request count exceeded the max limit of 5 request/minute");
+                        }
+                        else
+                        {
+                            ipRec.Count = ipRec.Count + 1;
+                            context.Session.Remove(remoteIp);
+                            context.Session.SetString(remoteIp, JsonConvert.SerializeObject(ipRec));
+                        }
+                    }
+                }                
             }
           
             await _next(context);
@@ -45,7 +51,7 @@ namespace CustomMiddleware
 
     public static class IPBlockerMiddlewareExtensions
     {
-        public static IApplicationBuilder BlockRequestFromIP( this IApplicationBuilder builder)
+        public static IApplicationBuilder BlockRequestFromIP(this IApplicationBuilder builder)
         {
             return builder.UseMiddleware<IPBlockerMiddleware>();
         }
