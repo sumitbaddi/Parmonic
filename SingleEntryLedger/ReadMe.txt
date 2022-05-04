@@ -13,3 +13,7 @@
 	* Transaction Date
 	* Transaction type
 	* Transaction amount
+
+3. Transaction Type
+	* Credit
+	* Debit

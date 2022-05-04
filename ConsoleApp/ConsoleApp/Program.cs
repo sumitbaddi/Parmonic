@@ -7,19 +7,19 @@ namespace FizzBuzz
         public static void Main()
         {
             Console.WriteLine("Enter an integer:");
-            int i;
+            int userInput;
             var input = Console.ReadLine();
-            bool isInt = int.TryParse(input, out i);
+            bool isInt = int.TryParse(input, out userInput);
 
-            if (string.IsNullOrEmpty(input) || isInt ==false || i<=0)
+            if (string.IsNullOrEmpty(input) || isInt ==false || userInput <= 0)
             {
                 Console.WriteLine("Provide valid integer input value greater than or equal to 1");
                 return;
             }
                         
-            if (!string.IsNullOrEmpty(input) && isInt == true && i>0)
+            if (!string.IsNullOrEmpty(input) && isInt == true && userInput > 0)
             {
-                var res = DisplayFizzBuzz(i);
+                var res = DisplayFizzBuzz(userInput);
                 Console.WriteLine(res);
                 Console.ReadLine();
             }            

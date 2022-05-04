@@ -2,6 +2,9 @@
 
 namespace CustomMiddleware
 {
+    /// <summary>
+    /// Middleware to block multiple request from a single IP in a given time frame
+    /// </summary>
     public class IPBlockerMiddleware
     {
         private readonly RequestDelegate _next;
